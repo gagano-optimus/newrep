@@ -1,0 +1,12 @@
+Given(/^I navigate to google$/) do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+When(/^I enter wado into the search field$/) do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+Then(/^text ohtsuka should be present$/) do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+	
