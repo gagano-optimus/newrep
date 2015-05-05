@@ -1,6 +1,6 @@
 server: eng-selenium-test.groundwork.groundworkopensource.com
 grid: none
-browser: 
+browser: firefox
 headless: false
 clear_cookies: false
 agent: none
