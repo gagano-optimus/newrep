@@ -1,0 +1,125 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Auto Discovery",
+    "line": 1,
+    "description": "",
+    "id": "auto-discovery",
+    "uri": "features/ad.feature",
+    "elements": [
+      {
+        "keyword": "Scenario",
+        "name": "Auto discovery with discovery definition not having any discovery method",
+        "line": 38,
+        "description": "",
+        "tags": [
+          {
+            "name": "@123",
+            "line": 37
+          }
+        ],
+        "id": "auto-discovery;auto-discovery-with-discovery-definition-not-having-any-discovery-method",
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "I am on auto-discovery page",
+            "line": 39,
+            "match": {
+              "location": "features/step_definitions/ad_step.rb:1"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "Connection refused - connect(2) (Errno::ECONNREFUSED)\n./features/step_definitions/ad_step.rb:2:in `/^I am on auto-discovery page$/'\nfeatures/ad.feature:39:in `Given I am on auto-discovery page'",
+              "duration": 2965758
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I create a discovery definition \"newtest\" and create \"testnew\" filter of type \"include\" and range \"172.28.113.160\"",
+            "line": 40,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 33,
+                  "val": "newtest"
+                },
+                {
+                  "offset": 54,
+                  "val": "testnew"
+                },
+                {
+                  "offset": 79,
+                  "val": "include"
+                },
+                {
+                  "offset": 99,
+                  "val": "172.28.113.160"
+                }
+              ],
+              "location": "features/step_definitions/ad_step.rb:89"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 801362
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I Uncheck definition methods",
+            "line": 41,
+            "match": {
+              "location": "features/step_definitions/ad_step.rb:103"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 651294
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "save the definition",
+            "line": 42,
+            "match": {
+              "location": "features/step_definitions/ad_step.rb:111"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 721788
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I launch go",
+            "line": 43,
+            "match": {
+              "location": "features/step_definitions/ad_step.rb:115"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 959229
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see no method assign message error for \"newtest\"",
+            "line": 44,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 49,
+                  "val": "newtest"
+                }
+              ],
+              "location": "features/step_definitions/ad_step.rb:119"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 1068911
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

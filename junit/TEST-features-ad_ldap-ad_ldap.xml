@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="0" failures="1" name="AD/LDAP Test" skipped="2" tests="4" time="40.588837">
+<testcase classname="AD/LDAP Test" name="Display Build and version" time="1.871580">
+  <system-out/>
+  <system-err/>
+</testcase>
+<testcase classname="AD/LDAP Test" name="Check Users login (outline example : | admin |)" time="38.717083">
+  <failure message="failed Check Users login (outline example : | admin |)" type="failed">
+    <![CDATA[Scenario Outline: Check Users login
+
+Example row: | admin |
+
+Message:
+]]>
+    <![CDATA[Connection refused - connect(2) (Errno::ECONNREFUSED)
+./lib/pages/dashboard_page.rb:55:in `verify_user'
+./features/step_definitions/ad_ldap_steps.rb:13:in `block (2 levels) in <top (required)>'
+./features/step_definitions/ad_ldap_steps.rb:12:in `/^I should see the dashboard page for "(.+)"$/'
+features/ad_ldap/ad_ldap.feature:13:in `Then I should see the dashboard page for "<user>"']]>
+  </failure>
+  <system-out/>
+  <system-err/>
+</testcase>
+<testcase classname="AD/LDAP Test" name="Check Users login (outline example : | user |)" time="0.000093">
+  <skipped/>
+  <system-out/>
+  <system-err/>
+</testcase>
+<testcase classname="AD/LDAP Test" name="Check Users login (outline example : | operator |)" time="0.000083">
+  <skipped/>
+  <system-out/>
+  <system-err/>
+</testcase>
+  <system-out>
+    <![CDATA[]]>
+  </system-out>
+  <system-err>
+    <![CDATA[]]>
+  </system-err>
+</testsuite>

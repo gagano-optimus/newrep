@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="0" failures="1" name="Auto Discovery" skipped="0" tests="1" time="0.064480">
+<testcase classname="Auto Discovery" name="Auto discovery with discovery definition not having any discovery method" time="0.064480">
+  <failure message="failed Auto discovery with discovery definition not having any discovery method" type="failed">
+    <![CDATA[Scenario: Auto discovery with discovery definition not having any discovery method
+
+Given I am on auto-discovery page
+And I create a discovery definition "newtest" and create "testnew" filter of type "include" and range "172.28.113.160"
+When I Uncheck definition methods
+And save the definition
+And I launch go
+Then I should see no method assign message error for "newtest"
+
+Message:
+]]>
+    <![CDATA[Connection refused - connect(2) (Errno::ECONNREFUSED)
+./features/step_definitions/ad_step.rb:2:in `/^I am on auto-discovery page$/'
+features/ad.feature:39:in `Given I am on auto-discovery page']]>
+  </failure>
+  <system-out/>
+  <system-err/>
+</testcase>
+  <system-out>
+    <![CDATA[]]>
+  </system-out>
+  <system-err>
+    <![CDATA[]]>
+  </system-err>
+</testsuite>

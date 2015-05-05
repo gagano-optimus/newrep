@@ -1,0 +1,410 @@
+[
+  {
+    "source": "^I am on auto-discovery page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/ad_step.rb:1",
+    "steps": [
+      {
+        "name": "I am on auto-discovery page",
+        "args": [
+
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I enter filter name as \"(.*?)\", filter pattern as \"(.*?)\" and choose type as \"(.*?)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/ad_step.rb:5",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I add the filter$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/ad_step.rb:9",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^perform auto-discovery with control type as auto\\-commit$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/ad_step.rb:13",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^\"(.*?)\" host should be shown on the status viewer\\.$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/ad_step.rb:17",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^perform auto-discovery$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/ad_step.rb:21",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^error should be shown in the event during discovery stage of  auto-discovery$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/ad_step.rb:25",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I enter filter name \"(.+?)\", filter pattern \"(.+?)\" and choose type \"(.+?)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/ad_step.rb:29",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I add filter$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/ad_step.rb:35",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^the filter \"(.+?)\" should be added in the list of added filters$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/ad_step.rb:43",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I delete a filter of name \"(.+?)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/ad_step.rb:48",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I click 'Yes' on the subsequent page asking for confirming the deletion$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/ad_step.rb:56",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^the filter \"(.+?)\" should be removed from the list of added filters$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/ad_step.rb:62",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I create a duplicate range-filter with name \"(.+?)\", type \"(.+?)\" and range \"(.+?)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/ad_step.rb:69",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I try to add the Range\\/Filter$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/ad_step.rb:75",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I should see the duplicate message error for \"(.+?)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/ad_step.rb:84",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I create a discovery definition \"(.+?)\" and create \"(.+?)\" filter of type \"(.+?)\" and range \"(.+?)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/ad_step.rb:89",
+    "steps": [
+      {
+        "name": "I create a discovery definition \"newtest\" and create \"testnew\" filter of type \"include\" and range \"172.28.113.160\"",
+        "args": [
+          {
+            "offset": 33,
+            "val": "newtest"
+          },
+          {
+            "offset": 54,
+            "val": "testnew"
+          },
+          {
+            "offset": 79,
+            "val": "include"
+          },
+          {
+            "offset": 99,
+            "val": "172.28.113.160"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I Uncheck definition methods$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/ad_step.rb:103",
+    "steps": [
+      {
+        "name": "I Uncheck definition methods",
+        "args": [
+
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^save the definition$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/ad_step.rb:111",
+    "steps": [
+      {
+        "name": "save the definition",
+        "args": [
+
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I launch go$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/ad_step.rb:115",
+    "steps": [
+      {
+        "name": "I launch go",
+        "args": [
+
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I should see no method assign message error for \"(.+?)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/ad_step.rb:119",
+    "steps": [
+      {
+        "name": "I should see no method assign message error for \"newtest\"",
+        "args": [
+          {
+            "offset": 49,
+            "val": "newtest"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I add a new discovery definition \"(.+?)\" filling all the required details$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/ad_step.rb:125",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^the added discovery definition \"(.+?)\" should be shown in the list of discovery definitions$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/ad_step.rb:134",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I add a new discovery definition$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/ad_step.rb:138",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I click 'create' leaving discovery name and import schema blank$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/ad_step.rb:142",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^discovery name and import schema required error message should be shown$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/ad_step.rb:150",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I add a filter with type 'include' with range '(\\d+)\\.(\\d+)\\.(\\d+)\\.(\\d+)\\-(\\d+)'$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/ad_step.rb:154",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I add a filter with type 'exclude' with range '(\\d+)\\.(\\d+)\\.(\\d+)\\.(\\d+)'$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/ad_step.rb:158",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I perform auto-discovery with control type 'auto\\-commit'$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/ad_step.rb:162",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^hosts '(\\d+)\\.(\\d+)\\.(\\d+)\\.(\\d+)' and '(\\d+)\\.(\\d+)\\.(\\d+)\\.(\\d+)' should be shown in status viewer but not '(\\d+)\\.(\\d+)\\.(\\d+)\\.(\\d+)'\\.$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/ad_step.rb:166",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I uncheck all the filters$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/ad_step.rb:170",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I perform auto discovery$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/ad_step.rb:174",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^no ranges assigned error message is shown$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/ad_step.rb:178",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^control type of discovery definition is 'interactive'$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/ad_step.rb:182",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I add a filter with range '(\\d+)\\.(\\d+)\\.(\\d+)\\.(\\d+)'$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/ad_step.rb:186",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I process the records after the discovery$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/ad_step.rb:190",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I commit the results$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/ad_step.rb:194",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^the host should be shown in status viewer$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/ad_step.rb:198",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^control type of discovery definition is 'auto'$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/ad_step.rb:202",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^control type of discovery definition is 'auto commit'$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/ad_step.rb:206",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I edit the discovery definition$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/ad_step.rb:210",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I check 'Nmap TCP', uncheck 'SNMP' and then save\\.$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/ad_step.rb:214",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^results shown should be of Nmap only$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/ad_step.rb:218",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I check 'SNMP', uncheck 'Nmap TCP' and then save\\.$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/ad_step.rb:222",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^results shown should be of SNMP only$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/ad_step.rb:226",
+    "steps": [
+
+    ]
+  }
+]
