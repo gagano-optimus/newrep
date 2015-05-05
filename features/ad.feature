@@ -14,13 +14,14 @@ Scenario: Auto discovery with invalid range/filter
  And perform auto-discovery
  Then error should be shown in the event during discovery stage of  auto-discovery
 
+@456
 Scenario: Add a range/filter
  Given I am on auto-discovery page
  And I enter filter name "172.28.113.211", filter pattern "172.28.113.211" and choose type "include"
  When I add filter
  Then the filter "172.28.113.211" should be added in the list of added filters
 
-
+@456
 Scenario: Delete a range/filter
  Given I am on auto-discovery page
  And I delete a filter of name "172.28.113.211"
