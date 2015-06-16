@@ -28,6 +28,7 @@ Scenario: Auto discover invalid range
   When I launch the Auto Discovery
   Then I should see a correct auto discover without invalid range "invalid"
 
+@123
 Scenario: No method definition error
   Given I am on the Auto Discovery page
   And I create a discovery definition "test1" and select "test1" filter of type "include" and range "172.28.113.160-170"
